@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #34AD54;
-    --secondary: #FF9933;
+    --primary: #1339e4;
+    --secondary: #c1cedd;
     --light: #F6FFF2;
     --dark: #263A4F;
 }
@@ -85,6 +85,9 @@ body {
     width: 50px;
     margin-bottom: 10px;
     
+}
+#list-event li{
+    display: flex;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -211,7 +214,6 @@ body {
     height: 55%;
     bottom: 0;
     left: 0;
-    background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
     background-size: contain;
     background-color: var(--primary);
     z-index: -1;
@@ -244,7 +246,7 @@ body {
 }
 
 .bg-testimonial {
-    background: url(../img/testimonial.jpg) top center no-repeat;
+    
     background-size: cover;
 }
 
