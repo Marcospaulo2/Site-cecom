@@ -27,6 +27,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/email.php">
 </head>
 
 <body>
@@ -36,7 +37,8 @@
             <div class="col-lg-3">
                 <div class="d-flex align-items-center justify-content-start ">
                     <a href="index.html" class="navbar-brand ms-lg-5">
-                        <img src="/img/logos/cecon-pe-logo.png" style="width: 150px;" alt="">
+
+                        <img src="img/logos/cecon-logo.png" style="width: 150px;" alt="Image">
                     </a>
                 </div>
             </div>
@@ -82,10 +84,13 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner ">
                 <div class="carousel-item active">
-                    <img class="" src="/img/slides/slide1.jpg" style="width: 100%; height: 360px;" alt="Image">
+                    <img src="img/slides/slide1.jpg" style="width: 100%;" alt="Image">
                 </div>
                 <div class="carousel-item">
-                    <img class="" src="img/slides/slide2.jpg" style="width: 100%; height: 360px;" alt="Image">
+                    <img src="img/slides/slide2.jpg" style="width: 100%;" alt="Image">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slides/slide8.jpg" style="width: 100%;" alt="Image">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
@@ -108,13 +113,13 @@
                     <div class=" bg-vegetable  flex-column rounded-start p-5" style="height: 150px;">
                         <div class="text-secondary-emphasis mb-3">
                             <h6>
-                                <img src="/img/logos/calendar3.svg" alt="calendar image">
-                                Tempo dos eventos
+                                <img src="img/logos/calendar3.png" alt="Image">
+                                Event time
                             </h6>
                             <span class="clock">
-                                
+
                             </span>
-                            
+
                         </div>
 
                     </div>
@@ -277,11 +282,11 @@
                                 <div class="owl-carousel testimonial-carousel p-2  ">
                                     <div class="testimonial-item text-center ">
                                         <img class="img-fluid mx-auto p-2 border border-3  mb-2 "
-                                            style="width: 100%; height: 100%;" src="img/slides/slide3.jpg" alt="">
+                                            style="width: 100%; height: 100%;" src="img/slides/slide3.jpg" alt="image">
                                     </div>
                                     <div class="testimonial-item text-center ">
                                         <img class="img-fluid mx-auto p-2 border border-3  mb-2 "
-                                            style="width: 100%; height: 100%;" src="img/slides/slide4.jpg" alt="">
+                                            style="width: 100%; height: 100%;" src="img/slides/slide4.jpg" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +301,7 @@
                 <!-- Search Form Start -->
                 <div class="mb-5">
                     <div class="input-group form-outline ">
-                        <input type="text" id="myInput" onkeyup="myFunction()" class="form-control p-3 "
+                        <input type="text" id="myInput" onkeyup="myFunction()" class="form-control p-3"
                             placeholder="Buscar">
                         <button class="btn btn-primary rounded px-4"><i class="bi bi-search"></i></button>
                     </div>
@@ -305,21 +310,26 @@
                 <!-- Category Start -->
                 <div class="mb-5 ">
                     <h2>VIDEO</h2>
-                    <a href="http://vimeo.com/24506451">
-                        <div class="d-flex flex-column justify-content-start bg-primary p-4 rounded">
-                            <img src="img/people.jpg" alt="">
+                    <div class="d-flex flex-column justify-content-start bg-primary p-2 rounded">
+                        <div class="ratio ratio-16x9">
+                            <iframe width="2503" height="810" src="https://www.youtube.com/embed/6L1MOTkwMBM"
+                                title="Pernambuco Centro de Convenções" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
                         </div>
-                    </a>
+                    </div>
+
                 </div>
                 <!-- Plain Text Start -->
                 <div>
                     <h2 class="mb-4">Loacalização</h2>
                     <div class="bg-primary text-center text-white rounded"
                         style="padding: 10px; width:100%; height: 100%;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63210.82345506066!2d-34.905830720898436!3d-8.032254499999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18798b20e83b%3A0x9a4fb33c2ab9e29b!2sCentro%20de%20Conven%C3%A7%C3%B5es%20de%20Pernambuco!5e0!3m2!1spt-BR!2sbr!4v1686369457468!5m2!1spt-BR!2sbr"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63210.82345506066!2d-34.905830720898436!3d-8.032254499999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18798b20e83b%3A0x9a4fb33c2ab9e29b!2sCentro%20de%20Conven%C3%A7%C3%B5es%20de%20Pernambuco!5e0!3m2!1spt-BR!2sbr!4v1686369457468!5m2!1spt-BR!2sbr"
                             width="390px" height="250px" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
                 <!-- Plain Text End -->
@@ -332,34 +342,34 @@
         <div class="container py-1">
             <div class="row col-12  justify-content-evenly">
                 <div class="col-lg-3 ">
-                    <div class="owl-carousel testimonial-carousel p-3 m-0   col-md-9 ">
+                    <div class="owl-carousel testimonial-carousel p-3 m-0 col-md-9 ">
                         <div class="testimonial-item text-center ">
-                            <img class="img-fluid mx-auto p-2 border border-2  mb-4" src="img/slides/slide8.jpg" alt="">
-
+                            <img class="img-fluid mx-auto p-2 border border-2 " style="width: 100%;" src="img/slides/slide8.jpg" alt="image">
                         </div>
                         <div class="testimonial-item text-center ">
-                            <img class="img-fluid mx-auto p-2 border border-2  mb-4" src="img/slides/slide7.jpg" alt="">
-
+                            <img class="img-fluid mx-auto p-2 border border-2 " style="width: 100%;" src="img/slides/slide7.jpg" alt="image">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="owl-carousel testimonial-carousel p-3  col-md-9">
                         <div class="testimonial-item text-center ">
-                            <img class="img-fluid mx-auto p-2 border border-2  mb-4" src="img/slides/slide6.jpg" alt="">
+                            <img class="img-fluid mx-auto p-2 border border-2 " style="width: 100%;" src="img/slides/slide6.jpg" alt="image">
                         </div>
                         <div class="testimonial-item text-center ">
-                            <img class="img-fluid mx-auto p-2 border border-2  mb-4" src="img/slides/slide5.jpg" alt="">
+                            <img class="img-fluid mx-auto p-2 border border-2 " style="width: 100%;" src="img/slides/slide5.jpg" alt="image">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="owl-carousel testimonial-carousel p-3  col-md-9">
+                    <div class="owl-carousel testimonial-carousel p-3 col-md-9">
                         <div class="testimonial-item text-center ">
-                            <img class="img-fluid mx-auto p-2 border border-2  mb-4" src="img/slides/slide4.jpg" alt="">
+                            <img class="img-fluid mx-auto p-2 border border-2 " style="width: 100%;"
+                                src="img/slides/slide4.jpg" alt="">
                         </div>
                         <div class="testimonial-item text-center ">
-                            <img class="img-fluid mx-auto p-2 border border-2  mb-4" src="img/slides/slide3.jpg" alt="">
+                            <img class="img-fluid mx-auto  p-2 border border-2 " style="width: 100%;"
+                                src="img/slides/slide3.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -368,14 +378,23 @@
     </div>
     <div class="container-fluid bg-dark text-white py-3">
         <div class="container text-center">
-            <div class="mt-2 py-2">
-                <a class="btn btn-info btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-info btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-info btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-info btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+            <div class="row justify-content-evenly">
+                <div class="col-4 mt-2 py-2">
+                    <a href="http://www.empetur.com.br" rel="external" target="_blank">
+                        <img src="img/logos/empetur-logo.png"  alt="Image">
+                    </a>
+                    <a href="http://www.recife.pe.gov.br/pr/secturismo/" rel="external" target="_blank">
+                        <img src="img/logos/sectur-pe-logo.png"  alt="Image">
+                    </a>
+                </div>
+                <div class="col-4 mt-2 py-2">
+                    <!-- <a class="btn btn-info btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a class="btn btn-info btn-square rounded-circle me-2" href="https://www.facebook.com/people/Centro-de-convencoes/100070116648543/" rel="external" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a class="btn btn-info btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                    <a class="btn btn-info btn-square rounded-circle" href="https://instagram.com/pernambucocecon?igshid=MzRlODBiNWFlZA==" rel="external" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <label class="mb-0">&copy; <a class="text-warning fw-bold" href="#">Cecon-pe</a>. 2012 - Todos os direitos reservados. <a class="text-warning fw-bold" href="https://htmlcodex.com"></a></label>
+                </div>
             </div>
-            <p class="mb-0">&copy; <a class="text-warning fw-bold" href="#">Cecon-pe</a>. 2012 - Todos os direitos
-                reservados. <a class="text-warning fw-bold" href="https://htmlcodex.com"></a></p>
         </div>
     </div>
     <!-- Footer End -->
